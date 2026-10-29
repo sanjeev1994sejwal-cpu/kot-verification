@@ -1,0 +1,16 @@
+{
+  "name": "bakery-packing-check",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that checks a packed bakery order photo against its KOT",
+  "type": "module",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --env-file=.env src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sharp": "^0.33.5"
+  }
+}
